@@ -31,7 +31,7 @@ class Solution {
 
 
 
-            carry=sum/10;
+            carry=sum/10;   ///if carry is generated like sum=10 then carrry is 1 then  is calculate to the next step and add t 
 
             current.next=new ListNode(sum%10);
 
