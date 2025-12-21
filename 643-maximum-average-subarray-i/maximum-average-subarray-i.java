@@ -17,6 +17,6 @@ class Solution {
         maxsum=Math.max(maxsum,sum);
          
         }
-    return maxsum/k;
+    return (double)maxsum/k;
     }
 }
